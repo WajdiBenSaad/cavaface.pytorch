@@ -4,6 +4,9 @@ import itertools as it
 from torch.optim.optimizer import Optimizer, required
 from collections import defaultdict
 
+
+## TODO : adapting the optimizer for ..XY.. project
+
 class Lookahead(Optimizer):
     '''
     PyTorch implementation of the lookahead wrapper.
